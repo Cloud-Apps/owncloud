@@ -5,7 +5,7 @@ $mysql_config = $services_json["mysql-5.1"][0]["credentials"];
 
 $AUTOCONFIG = array(
 "installed" => true,
-"adminlogin" => "admin",
+"adminlogin" => "admin@stackato.local",
 "adminpass" => "changeme",
 "directory" => "/app/app/data" 
 );

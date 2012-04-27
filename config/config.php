@@ -12,7 +12,7 @@ $CONFIG = array(
 "dbuser" => $mysql_config["user"],
 "dbpassword" => $mysql_config["password"],
 "dbhost" => $mysql_config["hostname"],
-"dbtableprefix" => "",
+"dbtableprefix" => "oc_",
 "forcessl" => false,
 "enablebackup" => false,
 "theme" => "",
@@ -30,6 +30,6 @@ $CONFIG = array(
 "appcodechecker" => "",
 "log_type" => "",
 "logfile" => "/app/app/oc.log",
-"loglevel" => "DEBUG",
+"loglevel" => "Debug",
 );
 ?>

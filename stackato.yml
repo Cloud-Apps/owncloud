@@ -8,4 +8,5 @@ services:
   owncloud-fs: filesystem
 
 hooks:
-  - ln -s $STACKATO_FILESYSTEM data
+  pre-running:
+    - ln -s $STACKATO_FILESYSTEM data
