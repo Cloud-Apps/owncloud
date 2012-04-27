@@ -1,0 +1,638 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Claudiu  <claudiu@tanaselia.ro>, 2011, 2012.
+# Ovidiu Tache <ovidiutache@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud\n"
+"Report-Msgid-Bugs-To: http://owncloud.shapado.com/\n"
+"POT-Creation-Date: 2012-01-24 00:24+0100\n"
+"PO-Revision-Date: 2012-01-23 07:11+0000\n"
+"Last-Translator: Claudiu <claudiu@tanaselia.ro>\n"
+"Language-Team: Romanian (http://www.transifex.net/projects/p/owncloud/team/ro/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1))\n"
+
+#: ajax/guesstimezone.php:42
+msgid "New Timezone:"
+msgstr "Fus orar nou:"
+
+#: ajax/settimezone.php:22
+msgid "Timezone changed"
+msgstr "A fost schimbat fusul orar"
+
+#: ajax/settimezone.php:24
+msgid "Invalid request"
+msgstr "Cerere eronată"
+
+#: appinfo/app.php:20 templates/calendar.php:14
+#: templates/part.eventform.php:20
+msgid "Calendar"
+msgstr "Calendar"
+
+#: lib/app.php:19
+msgid "Wrong calendar"
+msgstr "Calendar greșit"
+
+#: lib/app.php:60 lib/object.php:332
+msgid "Birthday"
+msgstr "Zi de naștere"
+
+#: lib/app.php:61 lib/object.php:333
+msgid "Business"
+msgstr "Afaceri"
+
+#: lib/app.php:62 lib/object.php:334
+msgid "Call"
+msgstr "Sună"
+
+#: lib/app.php:63 lib/object.php:335
+msgid "Clients"
+msgstr "Clienți"
+
+#: lib/app.php:64 lib/object.php:336
+msgid "Deliverer"
+msgstr "Curier"
+
+#: lib/app.php:65 lib/object.php:337
+msgid "Holidays"
+msgstr "Sărbători"
+
+#: lib/app.php:66 lib/object.php:338
+msgid "Ideas"
+msgstr "Idei"
+
+#: lib/app.php:67 lib/object.php:339
+msgid "Journey"
+msgstr "Călătorie"
+
+#: lib/app.php:68 lib/object.php:340
+msgid "Jubilee"
+msgstr "Aniversare"
+
+#: lib/app.php:69 lib/object.php:341
+msgid "Meeting"
+msgstr "Întâlnire"
+
+#: lib/app.php:70 lib/object.php:342
+msgid "Other"
+msgstr "Altele"
+
+#: lib/app.php:71 lib/object.php:343
+msgid "Personal"
+msgstr "Personal"
+
+#: lib/app.php:72 lib/object.php:344
+msgid "Projects"
+msgstr "Proiecte"
+
+#: lib/app.php:73 lib/object.php:345
+msgid "Questions"
+msgstr "Întrebări"
+
+#: lib/app.php:74 lib/object.php:346
+msgid "Work"
+msgstr "Servici"
+
+#: lib/object.php:353
+msgid "Does not repeat"
+msgstr "Nu se repetă"
+
+#: lib/object.php:354
+msgid "Daily"
+msgstr "Zilnic"
+
+#: lib/object.php:355
+msgid "Weekly"
+msgstr "Săptămânal"
+
+#: lib/object.php:356
+msgid "Every Weekday"
+msgstr "În fiecare săptămână"
+
+#: lib/object.php:357
+msgid "Bi-Weekly"
+msgstr "Din două în două săptămâni"
+
+#: lib/object.php:358
+msgid "Monthly"
+msgstr "Lunar"
+
+#: lib/object.php:359
+msgid "Yearly"
+msgstr "Anual"
+
+#: lib/object.php:366
+msgid "never"
+msgstr "niciodată"
+
+#: lib/object.php:367
+msgid "by occurrences"
+msgstr "după repetiție"
+
+#: lib/object.php:368
+msgid "by date"
+msgstr "după dată"
+
+#: lib/object.php:375
+msgid "by monthday"
+msgstr "după ziua lunii"
+
+#: lib/object.php:376
+msgid "by weekday"
+msgstr "după ziua săptămânii"
+
+#: lib/object.php:383 templates/lAfix.php:3
+msgid "Monday"
+msgstr "Luni"
+
+#: lib/object.php:384 templates/lAfix.php:4
+msgid "Tuesday"
+msgstr "Marți"
+
+#: lib/object.php:385 templates/lAfix.php:5
+msgid "Wednesday"
+msgstr "Miercuri"
+
+#: lib/object.php:386 templates/lAfix.php:6
+msgid "Thursday"
+msgstr "Joi"
+
+#: lib/object.php:387 templates/lAfix.php:7
+msgid "Friday"
+msgstr "Vineri"
+
+#: lib/object.php:388 templates/lAfix.php:8
+msgid "Saturday"
+msgstr "Sâmbătă"
+
+#: lib/object.php:389 templates/lAfix.php:2
+msgid "Sunday"
+msgstr "Duminică"
+
+#: lib/object.php:396
+msgid "events week of month"
+msgstr "evenimentele săptămânii din luna."
+
+#: lib/object.php:397
+msgid "first"
+msgstr "primul"
+
+#: lib/object.php:398
+msgid "second"
+msgstr "al doilea"
+
+#: lib/object.php:399
+msgid "third"
+msgstr "al treilea"
+
+#: lib/object.php:400
+msgid "fourth"
+msgstr "al patrulea"
+
+#: lib/object.php:401
+msgid "fifth"
+msgstr "al cincilea"
+
+#: lib/object.php:402
+msgid "last"
+msgstr "ultimul"
+
+#: lib/object.php:424 templates/lAfix.php:16
+msgid "January"
+msgstr "Ianuarie"
+
+#: lib/object.php:425 templates/lAfix.php:17
+msgid "February"
+msgstr "Februarie"
+
+#: lib/object.php:426 templates/lAfix.php:18
+msgid "March"
+msgstr "Martie"
+
+#: lib/object.php:427 templates/lAfix.php:19
+msgid "April"
+msgstr "Aprilie"
+
+#: lib/object.php:428 templates/lAfix.php:20
+msgid "May"
+msgstr "Mai"
+
+#: lib/object.php:429 templates/lAfix.php:21
+msgid "June"
+msgstr "Iunie"
+
+#: lib/object.php:430 templates/lAfix.php:22
+msgid "July"
+msgstr "Iulie"
+
+#: lib/object.php:431 templates/lAfix.php:23
+msgid "August"
+msgstr "August"
+
+#: lib/object.php:432 templates/lAfix.php:24
+msgid "September"
+msgstr "Septembrie"
+
+#: lib/object.php:433 templates/lAfix.php:25
+msgid "October"
+msgstr "Octombrie"
+
+#: lib/object.php:434 templates/lAfix.php:26
+msgid "November"
+msgstr "Noiembrie"
+
+#: lib/object.php:435 templates/lAfix.php:27
+msgid "December"
+msgstr "Decembrie"
+
+#: lib/object.php:441
+msgid "by events date"
+msgstr "după data evenimentului"
+
+#: lib/object.php:442
+msgid "by yearday(s)"
+msgstr "după ziua(zilele) anului"
+
+#: lib/object.php:443
+msgid "by weeknumber(s)"
+msgstr "după numărul săptămânii"
+
+#: lib/object.php:444
+msgid "by day and month"
+msgstr "după zi și lună"
+
+#: lib/object.php:467
+msgid "Not an array"
+msgstr "Not an array"
+
+#: lib/search.php:32 lib/search.php:34 lib/search.php:37
+msgid "Date"
+msgstr "Data"
+
+#: lib/search.php:40
+msgid "Cal."
+msgstr "Cal."
+
+#: templates/calendar.php:10
+msgid "All day"
+msgstr "Toată ziua"
+
+#: templates/calendar.php:11 templates/part.choosecalendar.php:15
+msgid "New Calendar"
+msgstr "Calendar nou"
+
+#: templates/calendar.php:12
+msgid "Missing fields"
+msgstr "Câmpuri lipsă"
+
+#: templates/calendar.php:13 templates/part.eventform.php:3
+msgid "Title"
+msgstr "Titlu"
+
+#: templates/calendar.php:15
+msgid "From Date"
+msgstr "Începând cu"
+
+#: templates/calendar.php:16
+msgid "From Time"
+msgstr "De la"
+
+#: templates/calendar.php:17
+msgid "To Date"
+msgstr "Până pe"
+
+#: templates/calendar.php:18
+msgid "To Time"
+msgstr "La"
+
+#: templates/calendar.php:19
+msgid "The event ends before it starts"
+msgstr "Evenimentul se termină înainte să înceapă"
+
+#: templates/calendar.php:20
+msgid "There was a database fail"
+msgstr "A avut loc o eroare a bazei de date"
+
+#: templates/calendar.php:38
+msgid "Week"
+msgstr "Săptămâna"
+
+#: templates/calendar.php:39
+msgid "Month"
+msgstr "Luna"
+
+#: templates/calendar.php:40
+msgid "List"
+msgstr "Listă"
+
+#: templates/calendar.php:46
+msgid "Today"
+msgstr "Astăzi"
+
+#: templates/calendar.php:47
+msgid "Calendars"
+msgstr "Calendare"
+
+#: templates/calendar.php:65
+msgid "There was a fail, while parsing the file."
+msgstr "A fost întâmpinată o eroare în procesarea fișierului"
+
+#: templates/lAfix.php:9
+msgid "Sun."
+msgstr "D"
+
+#: templates/lAfix.php:10
+msgid "Mon."
+msgstr "L"
+
+#: templates/lAfix.php:11
+msgid "Tue."
+msgstr "M"
+
+#: templates/lAfix.php:12
+msgid "Wed."
+msgstr "M"
+
+#: templates/lAfix.php:13
+msgid "Thu."
+msgstr "J"
+
+#: templates/lAfix.php:14
+msgid "Fri."
+msgstr "V"
+
+#: templates/lAfix.php:15
+msgid "Sat."
+msgstr "S"
+
+#: templates/lAfix.php:28
+msgid "Jan."
+msgstr "Ian."
+
+#: templates/lAfix.php:29
+msgid "Feb."
+msgstr "Feb."
+
+#: templates/lAfix.php:30
+msgid "Mar."
+msgstr "Mar."
+
+#: templates/lAfix.php:31
+msgid "Apr."
+msgstr "Apr."
+
+#: templates/lAfix.php:32
+msgid "May."
+msgstr "Mai."
+
+#: templates/lAfix.php:33
+msgid "Jun."
+msgstr "Iun."
+
+#: templates/lAfix.php:34
+msgid "Jul."
+msgstr "Iul."
+
+#: templates/lAfix.php:35
+msgid "Aug."
+msgstr "Aug."
+
+#: templates/lAfix.php:36
+msgid "Sep."
+msgstr "Sept."
+
+#: templates/lAfix.php:37
+msgid "Oct."
+msgstr "Oct."
+
+#: templates/lAfix.php:38
+msgid "Nov."
+msgstr "Nov."
+
+#: templates/lAfix.php:39
+msgid "Dec."
+msgstr "Dec."
+
+#: templates/part.choosecalendar.php:1
+msgid "Choose active calendars"
+msgstr "Alege activitățile din calendar"
+
+#: templates/part.choosecalendar.php:20
+#: templates/part.choosecalendar.rowfields.php:4
+msgid "CalDav Link"
+msgstr "Link CalDav"
+
+#: templates/part.choosecalendar.rowfields.php:4
+msgid "Download"
+msgstr "Descarcă"
+
+#: templates/part.choosecalendar.rowfields.php:4
+msgid "Edit"
+msgstr "Modifică"
+
+#: templates/part.choosecalendar.rowfields.php:4
+#: templates/part.editevent.php:9
+msgid "Delete"
+msgstr "Șterge"
+
+#: templates/part.editcalendar.php:9
+msgid "New calendar"
+msgstr "Calendar nou"
+
+#: templates/part.editcalendar.php:9
+msgid "Edit calendar"
+msgstr "Modifcă acest calendar"
+
+#: templates/part.editcalendar.php:12
+msgid "Displayname"
+msgstr "Nume"
+
+#: templates/part.editcalendar.php:23
+msgid "Active"
+msgstr "Activ"
+
+#: templates/part.editcalendar.php:29
+msgid "Calendar color"
+msgstr "Culoare calendar"
+
+#: templates/part.editcalendar.php:42
+msgid "Save"
+msgstr "Salveză"
+
+#: templates/part.editcalendar.php:42 templates/part.editevent.php:8
+#: templates/part.newevent.php:6
+msgid "Submit"
+msgstr "Trimite"
+
+#: templates/part.editcalendar.php:43
+msgid "Cancel"
+msgstr "Anulează"
+
+#: templates/part.editevent.php:1
+msgid "Edit an event"
+msgstr "Modifică un eveniment"
+
+#: templates/part.editevent.php:10
+msgid "Export"
+msgstr "Exportă"
+
+#: templates/part.eventform.php:5
+msgid "Title of the Event"
+msgstr "Numele evenimentului"
+
+#: templates/part.eventform.php:11
+msgid "Category"
+msgstr "Categorie"
+
+#: templates/part.eventform.php:13
+msgid "Select category"
+msgstr "Alege categoria"
+
+#: templates/part.eventform.php:37
+msgid "All Day Event"
+msgstr "Toată ziua"
+
+#: templates/part.eventform.php:41
+msgid "From"
+msgstr "De la"
+
+#: templates/part.eventform.php:49
+msgid "To"
+msgstr "Către"
+
+#: templates/part.eventform.php:57
+msgid "Advanced options"
+msgstr "Opțiuni avansate"
+
+#: templates/part.eventform.php:61
+msgid "Repeat"
+msgstr "Repetă"
+
+#: templates/part.eventform.php:68
+msgid "Advanced"
+msgstr "Avansat"
+
+#: templates/part.eventform.php:112
+msgid "Select weekdays"
+msgstr "Selectează zilele săptămânii"
+
+#: templates/part.eventform.php:125 templates/part.eventform.php:138
+msgid "Select days"
+msgstr "Selectează zilele"
+
+#: templates/part.eventform.php:130
+msgid "and the events day of year."
+msgstr "și evenimentele zilei."
+
+#: templates/part.eventform.php:143
+msgid "and the events day of month."
+msgstr "și evenimentele zilei din lună."
+
+#: templates/part.eventform.php:151
+msgid "Select months"
+msgstr "Selectează lunile"
+
+#: templates/part.eventform.php:164
+msgid "Select weeks"
+msgstr "Selectează săptămânile"
+
+#: templates/part.eventform.php:169
+msgid "and the events week of year."
+msgstr "și evenimentele săptămânii."
+
+#: templates/part.eventform.php:175
+msgid "Interval"
+msgstr "Interval"
+
+#: templates/part.eventform.php:181
+msgid "End"
+msgstr "Sfârșit"
+
+#: templates/part.eventform.php:193
+msgid "occurrences"
+msgstr "repetiții"
+
+#: templates/part.eventform.php:208
+msgid "Location"
+msgstr "Localizare"
+
+#: templates/part.eventform.php:210
+msgid "Location of the Event"
+msgstr "Localizarea evenimentului"
+
+#: templates/part.eventform.php:216
+msgid "Description"
+msgstr "Descriere"
+
+#: templates/part.eventform.php:218
+msgid "Description of the Event"
+msgstr "Descrierea evenimentului"
+
+#: templates/part.import.php:1
+msgid "Import a calendar file"
+msgstr "Importă un calendar"
+
+#: templates/part.import.php:6
+msgid "Please choose the calendar"
+msgstr "Alegeți calendarul"
+
+#: templates/part.import.php:10
+msgid "create a new calendar"
+msgstr "crează un calendar nou"
+
+#: templates/part.import.php:15
+msgid "Name of new calendar"
+msgstr "Numele noului calendar"
+
+#: templates/part.import.php:17
+msgid "Import"
+msgstr "Importă"
+
+#: templates/part.import.php:20
+msgid "Importing calendar"
+msgstr "Importă calendar"
+
+#: templates/part.import.php:23
+msgid "Calendar imported successfully"
+msgstr "Calendarul a fost importat cu succes"
+
+#: templates/part.import.php:24
+msgid "Close Dialog"
+msgstr "Închide"
+
+#: templates/part.newevent.php:1
+msgid "Create a new event"
+msgstr "Crează un evenimetn nou"
+
+#: templates/settings.php:13
+msgid "Timezone"
+msgstr "Fus orar"
+
+#: templates/settings.php:30
+msgid "Check always for changes of the timezone"
+msgstr "Verifică mereu pentru schimbări ale fusului orar"
+
+#: templates/settings.php:32
+msgid "Timeformat"
+msgstr "Format de timp"
+
+#: templates/settings.php:34
+msgid "24h"
+msgstr "24h"
+
+#: templates/settings.php:35
+msgid "12h"
+msgstr "12h"
+
+#: templates/settings.php:41
+msgid "Calendar CalDAV syncing address:"
+msgstr "Adresa pentru sincronizarea calendarului CalDAV"
+
+

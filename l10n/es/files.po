@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+#   <sergioballesterossolanas@gmail.com>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud\n"
+"Report-Msgid-Bugs-To: http://owncloud.shapado.com/\n"
+"POT-Creation-Date: 2012-01-15 14:44+0100\n"
+"PO-Revision-Date: 2012-01-11 18:52+0000\n"
+"Last-Translator: xsergiolpx <sergioballesterossolanas@gmail.com>\n"
+"Language-Team: Spanish (Castilian) (http://www.transifex.net/projects/p/owncloud/team/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ajax/upload.php:19
+msgid "There is no error, the file uploaded with success"
+msgstr "No hubo ningún error, el archivo se subió con éxito"
+
+#: ajax/upload.php:20
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr ""
+"El archivo que intentas subir sobrepasa el tamaño definido por la variable "
+"upload_max_filesize en php.ini"
+
+#: ajax/upload.php:21
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form"
+msgstr ""
+"El archivo que intentas subir sobrepasa el tamaño definido por la variable "
+"MAX_FILE_SIZE especificada en el formulario HTML"
+
+#: ajax/upload.php:22
+msgid "The uploaded file was only partially uploaded"
+msgstr "El archivo que intentas subir solo se subió parcialmente"
+
+#: ajax/upload.php:23
+msgid "No file was uploaded"
+msgstr "No se subió ningún archivo"
+
+#: ajax/upload.php:24
+msgid "Missing a temporary folder"
+msgstr "Falta un directorio temporal"
+
+#: appinfo/app.php:8
+msgid "Files"
+msgstr "Archivos"
+
+#: templates/admin.php:5
+msgid "Maximum upload size"
+msgstr "Tamaño máximo de subida"
+
+#: templates/index.php:7
+msgid "New"
+msgstr "Nuevo"
+
+#: templates/index.php:10
+msgid "Text file"
+msgstr "Archivo de texto"
+
+#: templates/index.php:11
+msgid "Folder"
+msgstr "Carpeta"
+
+#: templates/index.php:12
+msgid "From the web"
+msgstr "Desde la web"
+
+#: templates/index.php:22
+msgid "Upload"
+msgstr "Subir"
+
+#: templates/index.php:35
+msgid "Nothing in here. Upload something!"
+msgstr "Aquí no hay nada. ¡Sube algo!"
+
+#: templates/index.php:43
+msgid "Name"
+msgstr "Nombre"
+
+#: templates/index.php:45
+msgid "Download"
+msgstr "Descargar"
+
+#: templates/index.php:49
+msgid "Size"
+msgstr "Tamaño"
+
+#: templates/index.php:50
+msgid "Modified"
+msgstr "Modificado"
+
+#: templates/index.php:50
+msgid "Delete"
+msgstr "Eliminado"
+
+#: templates/index.php:58
+msgid "Upload too large"
+msgstr "El archivo es demasiado grande"
+
+#: templates/index.php:60
+msgid ""
+"The files you are trying to upload exceed the maximum size for file uploads "
+"on this server."
+msgstr ""
+"Los archivos que estás intentando subir sobrepasan el tamaño máximo "
+"permitido por este servidor."
+
+
