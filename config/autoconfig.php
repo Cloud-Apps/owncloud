@@ -1,11 +1,13 @@
 <?php
 $services = getenv("VCAP_SERVICES");
+$appinfo = getenv("VCAP_APPLICATION");
 $services_json = json_decode($services,true);
+$appinfo_json = json_decode($appinfo,true);
 $mysql_config = $services_json["mysql-5.1"][0]["credentials"];
 
 $AUTOCONFIG = array(
 "installed" => false,
-"adminlogin" => "admin@stackato.local",
+"adminlogin" => $appinfo_json["users"][0],
 "adminpass" => "changeme",
 "directory" => "/app/app/data", 
 "dbtype" => "mysql",

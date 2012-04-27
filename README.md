@@ -22,4 +22,5 @@ filesystem service - see 'stackato.yml').
 
     stackato push -n
 
-
+**Note**: The initial admin login is the same as your Stackato user
+(email address). The default password is 'changeme'.
